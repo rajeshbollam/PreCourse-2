@@ -17,7 +17,7 @@ class QuickSort
     
     int partition(int arr[], int low, int high) 
     { 
-   	//Write code here for Partition and Swap
+    //Write code here for Partition and Swap
         int pivot = arr[high];
         int i = low - 1;
         for(int j = low; j<=high; j++){
